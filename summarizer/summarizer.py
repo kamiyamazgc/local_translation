@@ -7,6 +7,7 @@ LM Studioを使用してテキストを要約する機能
 
 import os
 import sys
+import argparse
 import requests
 import json
 from pathlib import Path
@@ -135,54 +136,48 @@ Summary:"""
 
 def main():
     """メイン関数"""
-    if len(sys.argv) < 2:
-        print("使用方法: python summarizer.py <入力ファイル> [出力ファイル] [最大文字数] [言語]")
-        print("例: python summarizer.py input.txt output.txt 500 日本語")
-        print("例: python summarizer.py input.txt output.txt 500 英語")
-        sys.exit(1)
-    
-    input_file = sys.argv[1]
-    output_file = None
-    max_length = 500
-    language = "日本語"
-    
-    # 引数の解析
-    if len(sys.argv) > 2:
-        # 2番目の引数が数値かどうかチェック
-        try:
-            max_length = int(sys.argv[2])
-            # 3番目の引数が言語指定かチェック
-            if len(sys.argv) > 3:
-                language = sys.argv[3]
-        except ValueError:
-            # 2番目の引数が出力ファイル名の場合
-            output_file = sys.argv[2]
-            # 3番目の引数が数値かどうかチェック
-            if len(sys.argv) > 3:
-                try:
-                    max_length = int(sys.argv[3])
-                    # 4番目の引数が言語指定かチェック
-                    if len(sys.argv) > 4:
-                        language = sys.argv[4]
-                except ValueError:
-                    print("エラー: 最大文字数は数値で指定してください。")
-                    sys.exit(1)
-    
-    # 言語の検証
-    if language not in ["日本語", "英語"]:
-        print("エラー: 言語は '日本語' または '英語' を指定してください。")
-        sys.exit(1)
-    
-    # 要約器の初期化
+    parser = argparse.ArgumentParser(description="テキストファイルを要約するツール")
+    parser.add_argument("input_file", help="入力ファイルのパス")
+    parser.add_argument("--output", "-o", dest="output_file", help="出力ファイルのパス")
+    parser.add_argument(
+        "--max-length",
+        "-m",
+        type=int,
+        default=500,
+        dest="max_length",
+        help="要約の最大文字数",
+    )
+    parser.add_argument(
+        "--language",
+        "-l",
+        choices=["日本語", "英語"],
+        default="日本語",
+        dest="language",
+        help="要約言語",
+    )
+
+    args = parser.parse_args()
+
     summarizer = Summarizer()
-    
-    # 要約実行
-    success = summarizer.summarize_file(input_file, output_file, max_length, language)
-    
+    success = summarizer.summarize_file(
+        args.input_file,
+        args.output_file,
+        args.max_length,
+        args.language,
+    )
+
     if success:
-        print("処理が正常に完了しました。" if language == "日本語" else "Processing completed successfully.")
+        print(
+            "処理が正常に完了しました。"
+            if args.language == "日本語"
+            else "Processing completed successfully."
+        )
     else:
-        print("処理中にエラーが発生しました。" if language == "日本語" else "An error occurred during processing.")
+        print(
+            "処理中にエラーが発生しました。"
+            if args.language == "日本語"
+            else "An error occurred during processing."
+        )
         sys.exit(1)
 
 

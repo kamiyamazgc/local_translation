@@ -73,7 +73,7 @@ python translator.py input.txt output.txt
 
 ```bash
 cd summarizer
-python summarizer.py input.txt output.txt --language ja
+python summarizer.py input.txt --output output.txt --language ja
 ```
 
 ### チャンキング
