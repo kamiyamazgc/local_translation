@@ -1,0 +1,11 @@
+**In this final rule, EPA is setting limits for five individual PFAS: PFOA, PFOS, PFNA, PFHxS, and HFPO-DA (known as GenX Chemicals).And EPA is also setting a hazard index level for two or more of four PFAS as a mixture: PFNA, PFHxS, HFPO-DA, and PFBS:**
+
+| Chemical                                                                                                                 | Maximum Contaminant Level | Maximum Contaminant Level (MCL) |
+|--------------------------------------------------------------------------------------------------------------------------|---------------------------|---------------------------------|
+|                                                                                                                          | Goal (MCLG)               |                                 |
+| PFOA                                                                                                                     | 0                         | 4.0 ppt                         |
+| PFOS                                                                                                                     | 0                         | 4.0 ppt                         |
+| PFNA                                                                                                                     | 10 ppt                    | 10 ppt                          |
+| PFHxS                                                                                                                    | 10 ppt                    | 10 ppt                          |
+| HFPO-DA (GenX chemicals)                                                                                                 | 10 ppt                    | 10 ppt                          |
+| Mixture of two or more:                                                                                                  | Hazard Index of 1         | Hazard Index of 1               |

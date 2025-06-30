@@ -1,0 +1,74 @@
+{
+  "original_file": "/Users/desesseintes/Downloads/VSCode/local_translation/sample/galasy_z_fold_camera_ring.txt.txt",
+  "total_chunks": 13,
+  "max_chunk_size": 2000,
+  "min_chunk_size": 300,
+  "method": "sentence_based_chunking",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "filename": "chunk_001.txt",
+      "character_count": 1879
+    },
+    {
+      "chunk_number": 2,
+      "filename": "chunk_002.txt",
+      "character_count": 463
+    },
+    {
+      "chunk_number": 3,
+      "filename": "chunk_003.txt",
+      "character_count": 490
+    },
+    {
+      "chunk_number": 4,
+      "filename": "chunk_004.txt",
+      "character_count": 808
+    },
+    {
+      "chunk_number": 5,
+      "filename": "chunk_005.txt",
+      "character_count": 847
+    },
+    {
+      "chunk_number": 6,
+      "filename": "chunk_006.txt",
+      "character_count": 816
+    },
+    {
+      "chunk_number": 7,
+      "filename": "chunk_007.txt",
+      "character_count": 1020
+    },
+    {
+      "chunk_number": 8,
+      "filename": "chunk_008.txt",
+      "character_count": 1767
+    },
+    {
+      "chunk_number": 9,
+      "filename": "chunk_009.txt",
+      "character_count": 634
+    },
+    {
+      "chunk_number": 10,
+      "filename": "chunk_010.txt",
+      "character_count": 703
+    },
+    {
+      "chunk_number": 11,
+      "filename": "chunk_011.txt",
+      "character_count": 1994
+    },
+    {
+      "chunk_number": 12,
+      "filename": "chunk_012.txt",
+      "character_count": 503
+    },
+    {
+      "chunk_number": 13,
+      "filename": "chunk_013.txt",
+      "character_count": 25
+    }
+  ]
+}

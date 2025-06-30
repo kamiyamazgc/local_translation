@@ -1,0 +1,54 @@
+{
+  "original_file": "/Users/desesseintes/Downloads/VSCode/local_translation/sample/galasy_z_fold_camera_ring.txt.txt",
+  "total_chunks": 9,
+  "max_chunk_size": 1500,
+  "overlap": 200,
+  "method": "simple_chunking",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "filename": "chunk_001.txt",
+      "character_count": 1476
+    },
+    {
+      "chunk_number": 2,
+      "filename": "chunk_002.txt",
+      "character_count": 1468
+    },
+    {
+      "chunk_number": 3,
+      "filename": "chunk_003.txt",
+      "character_count": 1441
+    },
+    {
+      "chunk_number": 4,
+      "filename": "chunk_004.txt",
+      "character_count": 1496
+    },
+    {
+      "chunk_number": 5,
+      "filename": "chunk_005.txt",
+      "character_count": 1461
+    },
+    {
+      "chunk_number": 6,
+      "filename": "chunk_006.txt",
+      "character_count": 1459
+    },
+    {
+      "chunk_number": 7,
+      "filename": "chunk_007.txt",
+      "character_count": 1443
+    },
+    {
+      "chunk_number": 8,
+      "filename": "chunk_008.txt",
+      "character_count": 1292
+    },
+    {
+      "chunk_number": 9,
+      "filename": "chunk_009.txt",
+      "character_count": 417
+    }
+  ]
+}

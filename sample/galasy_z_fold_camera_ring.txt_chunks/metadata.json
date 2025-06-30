@@ -1,0 +1,13 @@
+{
+  "original_file": "/Users/desesseintes/Downloads/VSCode/local_translation/sample/galasy_z_fold_camera_ring.txt.txt",
+  "total_chunks": 1,
+  "max_chunk_size": 700,
+  "use_smart_chunking": true,
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "filename": "chunk_001.txt",
+      "character_count": 11952
+    }
+  ]
+}
