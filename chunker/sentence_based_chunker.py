@@ -14,6 +14,10 @@ from pathlib import Path
 from typing import Optional, List, Dict, Tuple
 import yaml
 
+# ルートディレクトリをパスに追加して共通ユーティリティを参照
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+from utils.language_utils import detect_language
+
 
 class SentenceBasedChunker:
     """文単位での逐次判定によるテキスト分割クラス"""
@@ -79,29 +83,8 @@ class SentenceBasedChunker:
         return text.replace('__PROTECTED_DOT__', '.')
 
     def detect_language(self, text: str) -> str:
-        """
-        テキストの言語を判別する
-        
-        Args:
-            text: 判別対象のテキスト
-            
-        Returns:
-            言語コード（'ja' または 'en'）
-        """
-        # 日本語文字（ひらがな、カタカナ、漢字）の割合を計算
-        japanese_chars = re.findall(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]', text)
-        total_chars = len(re.findall(r'[a-zA-Z\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]', text))
-        
-        if total_chars == 0:
-            return 'en'  # デフォルトは英語
-        
-        japanese_ratio = len(japanese_chars) / total_chars
-        
-        # 日本語文字が30%以上含まれている場合は日本語と判定
-        if japanese_ratio >= 0.3:
-            return 'ja'
-        else:
-            return 'en'
+        """テキストの言語を判別する"""
+        return detect_language(text)
     
     def get_topic_shift_prompt(self, current_text: str, new_sentence: str, language: str) -> str:
         """
