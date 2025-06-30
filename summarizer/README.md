@@ -33,13 +33,13 @@ pip install -r requirements.txt
 python summarizer.py input.txt
 
 # 最大文字数を指定
-python summarizer.py input.txt 500
+python summarizer.py input.txt --max-length 500
 
 # 英語で要約
-python summarizer.py input.txt 500 英語
+python summarizer.py input.txt --max-length 500 --language 英語
 
 # 出力ファイル名を指定
-python summarizer.py input.txt output.txt 500 日本語
+python summarizer.py input.txt --output output.txt --max-length 500 --language 日本語
 ```
 
 ### Pythonスクリプトから使用
