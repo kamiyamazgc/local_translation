@@ -6,7 +6,8 @@ LM Studioを使用したローカルテキスト分割機能です。
 
 1. LM Studioがインストールされていること
 2. gemma-3n-e4b-it-textモデルがロードされていること
-3. LM Studioサーバーが http://127.0.0.1:1234 で起動していること
+3. LM Studioサーバーが起動していること（デフォルト: http://127.0.0.1:1234、
+   環境変数 `LM_STUDIO_SERVER_URL` で変更可能）
 
 ## セットアップ
 
@@ -132,7 +133,7 @@ success = chunker.chunk_file("input.txt", "output_dir")
 ### 文単位チャンカー
 - `max_chunk_size`: 最大チャンクサイズ（デフォルト: 2000文字）
 - `min_chunk_size`: 最小チャンクサイズ（デフォルト: 300文字）
-- `server_url`: LM StudioサーバーURL（デフォルト: http://127.0.0.1:1234）
+- `server_url`: LM StudioサーバーURL（デフォルト: http://127.0.0.1:1234、環境変数 `LM_STUDIO_SERVER_URL` で変更可能）
 
 ### シンプルチャンカー
 - `max_chunk_size`: 最大チャンクサイズ（デフォルト: 2000文字）

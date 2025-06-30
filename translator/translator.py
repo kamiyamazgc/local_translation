@@ -15,8 +15,8 @@ from typing import Optional, Dict, Any
 
 class Translator:
     """LM Studioを使用したローカル翻訳クラス"""
-    
-    def __init__(self, server_url: str = "http://127.0.0.1:1234"):
+
+    def __init__(self, server_url: str = os.getenv("LM_STUDIO_SERVER_URL", "http://127.0.0.1:1234")):
         """
         初期化
         

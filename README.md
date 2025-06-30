@@ -34,7 +34,8 @@ local_translation/
 
 1. LM Studioを起動
 2. gemma-3n-e4b-it-text等のモデルをダウンロード
-3. ローカルサーバーを起動（デフォルト: http://localhost:1234/v1）
+3. ローカルサーバーを起動（デフォルト: http://localhost:1234/v1）。
+   必要に応じて環境変数 `LM_STUDIO_SERVER_URL` でURLを指定できます
 
 ### 2. 各機能のセットアップ
 
