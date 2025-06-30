@@ -1,3 +1,0 @@
-**ppt**: parts per trillion
-
-**Hazard Index (HI):** The Hazard Index is a long-established approach that EPA regularly uses to understand health risk from a chemical mixture (i.e., exposure to multiple chemicals).The HI is made up of a sum of fractions. Each fraction compares the level of each PFAS measured in the water to the health-based water concentration.

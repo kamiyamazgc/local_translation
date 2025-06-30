@@ -1,5 +1,0 @@
-| Maximum Contaminant Level Goal (MCLG): The level of a contaminant in drinking water below which there is no              |                           |                                 |
-| known or expected risk to health. MCLGs allow for a margin of safety and are non-enforceable public health goals.        |                           |                                 |
-| Maximum Contaminant Level (MCL): The highest level of a contaminant that is allowed in drinking water. MCLs are set      |                           |                                 |
-| as close to MCLGs as feasible using the best available treatment technology and taking cost into consideration. MCLs are |                           |                                 |
-| enforceable standards.                                                                                                   |                           |                                 |

@@ -1,7 +1,0 @@
-# **追加情報**
-
-水道インフラ整備の資金調達機会については、EPAの水道インフラページをご覧ください。 [（https://www.epa.gov/water-infrastructure/water-technical-assistance-programs）](https://www.epa.gov/water-infrastructure/water-technical-assistance-programs)
-
-飲料水中のPFAS（有機フッ素化合物・パーフルオロアルキル化合物）について懸念がある場合は、取るべき重要な対策があります。 飲料水中のPFASについて心配している方は、まず水道事業者に連絡して、現在の水道水の状況（含まれる可能性のある汚染物質、PFASのモニタリング状況、濃度、および実施されている対策など）を確認してください。
-
-水道事業者と話してもなお懸念が残る場合は、家庭用浄水器（例：フィルター）の使用や設置を検討し、PFASの濃度を下げることを認証された製品を選びましょう。また、医療機関や州・地方自治体の保健部門にも連絡してください。 PFASの低減に役立つ浄水器に関する詳細は [こちら](https://www.epa.gov/system/files/documents/2024-04/water-filter-fact-sheet.pdf) でご確認ください。 自宅の井戸から水を引いている場合は、EPAは定期的な検査を推奨しています。 PFASが検出された場合は、濃度を下げるための対策を講じることができます。詳細については、EPAのウェブサイト [こちら](https://www.epa.gov/pfas/meaningful-and-achievable-steps-you-can-take-reduce-your-risk) をご覧ください。
