@@ -12,6 +12,10 @@ import json
 from pathlib import Path
 from typing import Optional, Dict, Any
 
+# ルートディレクトリをパスに追加して共通ユーティリティを参照
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+from utils.language_utils import detect_language
+
 
 class Translator:
     """LM Studioを使用したローカル翻訳クラス"""
@@ -27,23 +31,8 @@ class Translator:
         self.api_endpoint = f"{server_url}/v1/chat/completions"
         
     def detect_language(self, text: str) -> str:
-        """
-        テキストの言語を検出する（簡易版）
-        
-        Args:
-            text: 検出対象のテキスト
-            
-        Returns:
-            検出された言語コード（'ja' または 'en'）
-        """
-        # 簡易的な言語検出（日本語文字が含まれているかどうか）
-        japanese_chars = set('あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゃゅょっーアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポャュョッー')
-        
-        # テキストの最初の100文字をチェック
-        sample_text = text[:100]
-        has_japanese = any(char in japanese_chars for char in sample_text)
-        
-        return 'ja' if has_japanese else 'en'
+        """テキストの言語を判別する"""
+        return detect_language(text)
     
     def translate_text(self, text: str, target_language: str = "日本語") -> str:
         """
