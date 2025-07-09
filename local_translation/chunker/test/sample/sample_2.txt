@@ -1,0 +1,117 @@
+Here's Which Vehicles Offer iPhone Car Keys
+In 2020, Apple added a digital car key feature to its Wallet app, allowing users to lock, unlock, and start a compatible vehicle with an iPhone or Apple Watch. The feature is currently offered by select automakers, including Audi, BMW, Hyundai, Kia, Genesis, Mercedes-Benz, Volvo, and a handful of others, and it is set to expand further.
+Apple has a web page with a list of vehicle models that support iPhone car keys, but it has not been updated in a while, so it is missing some recent additions. Our list below is more up to date, but if we are missing any vehicles, let us know.
+Existing Vehicles
+Audi
+- 2025 and newer A5
+- 2025 and newer Q5
+- 2025 and newer SQ5
+- 2025 and newer A6
+- 2025 and newer S6
+- 2025 and newer Q6
+- 2025 and newer SQ6
+BMW
+- 2021 and newer 1 Series
+- 2021 and newer 2 Series
+- 2021 and newer 3 Series
+- 2021 and newer 4 Series
+- 2021 and newer 5 Series
+- 2021 and newer 6 Series
+- 2021 and newer 8 Series
+- 2021 and newer X5
+- 2021 and newer X6
+- 2021 and newer X7
+- 2021 and newer X5 M
+- 2021 and newer X6 M
+- 2021 and newer Z4
+- 2022 and newer i4
+- 2022 and newer iX
+- 2022 and newer iX1
+- 2022 and newer iX3
+- 2023 and newer i3
+- 2023 and newer i7
+- 2024 and newer i5
+MINI
+- Aceman (produced from May 2024)
+- Cooper (3-door) C / S (produced from March 2024)
+- Cooper (3-door) E / SE (produced from November 2023)
+- Cooper (5-door) (produced from July 2024)
+- Countryman (produced from November 2023)
+Hyundai
+- 2023 and newer Palisade
+- 2024 and newer Elantra
+- 2024 and newer Kona
+- 2024 and newer Santa Fe
+- 2024 and newer Sonata
+- 2025 and newer Tucson
+- 2025 and newer Santa Cruz
+- 2025 and newer IONIQ 5
+- 2023 and newer IONIQ 6
+- 2026 and newer IONIQ 9
+Kia
+- 2023 and newer Telluride
+- 2023 and newer Niro
+- 2023 and newer Seltos
+- 2024 and newer EV3
+- 2024 and newer EV9
+- 2024 and newer Sorento
+- 2025 and newer Carnival
+Genesis
+- 2023 and newer GV60
+- 2023 and newer G90
+- 2024 and newer G70
+Mercedes-Benz
+- 2024 and newer E‑Class
+- 2025 and newer EQE
+- 2025 and newer EQS
+Polestar
+- All models of the Polestar 3
+- All models of the Polestar 4
+RAM
+Volvo
+- 2024 and newer EX30
+- 2024 and newer EX90
+Lotus
+- 2024 and newer Eletre
+- 2024 and newer Emeya
+A few other automakers have started rolling out iPhone car keys, such as BYD and Lynk & Co.
+Availability may vary by country.
+Future Vehicles
+During its WWDC 2025 keynote last month, Apple said that the following 13 automakers would "soon" offer vehicle models with iPhone car keys:
+- Acura
+- Chevrolet
+- Cadillac
+- GMC
+- Porsche
+- Rivian
+- Smart
+- Lucid Motors
+- Tata Motors
+- Hongqi
+- WEY
+- Chery
+- Voyah
+For Rivian, this will include the second-generation R1S and R1T and newer, according to a press release from more than a year ago.
+Popular Stories
+Apple's next-generation iPhone 17 Pro and iPhone 17 Pro Max are just over two months away, and there are plenty of rumors about the devices.
+Below, we recap key changes rumored for the iPhone 17 Pro models.
+Latest Rumors
+These rumors surfaced in June and July:Apple logo repositioned: Apple's logo may have a lower position on the back of the iPhone 17 Pro models, compared to previous...
+Apple should unveil the iPhone 17 series in September, and there might be one bigger difference between the Pro and Pro Max models this year.
+As always, the Pro Max model will be larger than the Pro model:iPhone 17 Pro: 6.3-inch display
+iPhone 17 Pro Max: 6.9-inch displayGiven the Pro Max is physically larger than the Pro, it has more internal space, allowing for a larger battery and...
+Apple's position as the dominant force in the global true wireless stereo (TWS) earbud market is expected to continue through 2025, according to Counterpoint Research.
+The forecast outlines a 3% year-over-year increase in global TWS unit shipments for 2025, signaling a transition from rapid growth to a more mature phase for the category. While Apple is set to remain the leading brand by...
+The iPhone 17 Pro Max will feature the biggest ever battery in an iPhone, according to the Weibo leaker known as "Instant Digital."
+In a new post, the leaker listed the battery capacities of the iPhone 11 Pro Max through to the iPhone 16 Pro Max, and added that the iPhone 17 Pro Max will feature a battery capacity of 5,000mAh:
+iPhone 11 Pro Max: 3,969mAh
+iPhone 12 Pro Max: 3,687mAh...
+The long wait for an Apple Watch Ultra 3 appears to be nearly over, and it is rumored to feature both satellite connectivity and 5G support.
+Apple Watch Ultra's existing Night Mode
+In his latest Power On newsletter, Bloomberg's Mark Gurman said that the Apple Watch Ultra 3 is on track to launch this year with "significant" new features, including satellite connectivity, which would let you...
+AppleInsider's Marko Zivkovic today shared a list of alleged identifiers for future Mac models, which should roll out over the next year or so.
+The report does not reveal anything too surprising, but it does serve as further evidence that Apple is seemingly working on new models of every Mac, including the MacBook Air, MacBook Pro, iMac, Mac mini, Mac Studio, and Mac Pro.
+Apple is...
+Apple's next-generation M5 chip is expected to debut in five new products later this year, including the iPad Pro, Vision Pro, MacBook Pro, Mac mini, and iMac.
+M5 chips will reportedly be manufactured with TSMC's latest third-generation 3nm process, which should result in slight performance and power efficiency improvements over M4 chips fabricated with its second-generation 3nm process.
+...

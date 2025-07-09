@@ -1,0 +1,6 @@
+Apple’s new Liquid Glass design language just got a little more… frosted. In the third iOS 26 developer beta, Apple dialed back the transparency of navigation bars, buttons, and tabs that once allowed you to clearly see the content beneath them.
+Apple just added more frost to its Liquid Glass design
+The latest iOS 26 developer beta makes Apple’s new UI a little less transparent and easier to read.
+Apple already toned down the glassiness of Liquid Glass after many users complained that it was too transparent and made it more difficult to see certain options, like the icons inside the Control Center. This most recent beta makes Liquid Glass elements even more solid, likely as a way to improve readability. Still, some users see the change as a reversal of the flashy, glass-like design that Apple showcased at WWDC.
+“iOS 26 beta 3 completely nerfs Liquid Glass,” AppleTrack developer Sam Kohl says in a post on X. “It looks so much cheaper now and feels like Apple is backtracking on their original vision.” Others ask Apple to “stop ruining” Liquid Glass and call the new design a “step backwards.” Some users in the beta found that the transparency level can vary depending on the app they’re using.
+This is still just a developer beta, so it’s likely that Apple will continue to make tweaks before it releases iOS 26 to the public in September.

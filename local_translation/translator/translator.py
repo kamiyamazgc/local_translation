@@ -53,7 +53,7 @@ class Translator:
             return text
         
         # 翻訳プロンプトの作成
-        prompt = f"""以下のテキストを{target_language}に翻訳してください。原文の意味を正確に保ち、自然な{target_language}で翻訳してください。
+        prompt = f"""以下のテキストを{target_language}に翻訳してください。原文の意味を正確に保ち、自然な{target_language}で翻訳してください。翻訳結果のみを回答してください。
 
 原文:
 {text}
